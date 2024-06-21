@@ -253,7 +253,7 @@ try {
         ];
 
         if (text.startsWith('/start') || text.startsWith('start')) {
-            bot.sendMessage(chatId, "Hello there! Just type 'sorting algorithm' for more information.");
+            bot.sendMessage(chatId, "Hello there.! Just type 'sorting algorithm' for more information.");
         } else if (text.startsWith('sorting algorithm')) {
             let response = "Types of Sorting:\nComparison-based Sorting Algorithms:\n";
             sortingAlgorithms.forEach((algorithm, index) => {
